@@ -21,3 +21,18 @@
     /* 코드 */
   }
   ```
+  ### console.log 로그
+  ```json
+  {
+    "name": "print",
+    "arguments": {
+      "value": [
+        "Hello, world!"
+      ]
+    }
+  }
+  ```
+  #### 결과
+  ```js
+  console.log(`Hello, world!`);
+  ```
