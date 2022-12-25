@@ -36,3 +36,27 @@
   ```js
   console.log(`Hello, world!`);
   ```
+  ### 변수
+  ```json
+  {
+    "name": "variable",
+    "type": "const" | "let" | "var",
+    "id": "변수명",
+    "value": "변수 값"
+  }
+  ```
+  #### 결과
+  ```js
+  const | let | var 변수명 = "변수 값"
+  ```
+  ### 주석
+  ```json
+  {
+    "name": "memo",
+    "value": "주석 내용"
+  }
+  ```
+  #### 결과
+  ```js
+  // 주석 내용
+  ```
