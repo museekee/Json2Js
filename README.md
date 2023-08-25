@@ -60,3 +60,14 @@
   ```js
   // 주석 내용
   ```
+  ### 자바스크립트 코드
+  ```json
+  {
+    "name": "js",
+    "value": "console.log(`js코드`)"
+  }
+  ```
+  ##### 결과
+  ```js
+  console.log(`js코드`)
+  ```
