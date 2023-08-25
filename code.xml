@@ -1,0 +1,16 @@
+<memo>처음 로그</memo>
+<print>
+    <value>안녕 ${1+1}</value>
+</print>
+<memo>로그 겁나함</memo>
+<loop var="i" start="0" end="10">
+    <loop var="j" start="0" end="5">
+        <print>
+            <value>지금 i는 ${i}고,</value>
+            <value>j는 ${j}야.</value>
+        </print>
+        <print>
+            <value>----------</value>
+        </print>
+    </loop>
+</loop>

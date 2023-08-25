@@ -1,0 +1,78 @@
+[
+    {
+      "name": "memo",
+      "value": "처음 로그"
+    },
+    {
+        "name": "variable",
+        "type": "const",
+        "id": "test_variable",
+        "value": "테스트 변수"
+    },
+    {
+      "name": "variable",
+      "type": "const",
+      "id": "randomTest",
+      "value": {
+        "name": "js",
+        "value": "Math.random()"
+      }
+    },
+    {
+      "name": "print",
+      "arguments": {
+        "value": [
+          "안녕 ${test_variable}",
+          "${randomTest}"
+        ]
+      }
+    },
+    {
+      "name": "memo",
+      "value": "로그 겁나함"
+    },
+    {
+      "name": "loop",
+      "arguments": {
+        "variable": "i",
+        "start": 0,
+        "end": 10
+      },
+      "run": [
+        {
+          "name": "loop",
+          "arguments": {
+            "variable": "j",
+            "start": 0,
+            "end": 2
+          },
+          "run": [
+            {
+              "name": "print",
+              "arguments": {
+                "value": [
+                  "지금 i는 ${i}고,"
+                ]
+              }
+            },
+            {
+              "name": "print",
+              "arguments": {
+                "value": [
+                  "j는 ${j}야."
+                ]
+              }
+            },
+            {
+              "name": "print",
+              "arguments": {
+                "value": [
+                  "-----------------------"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
