@@ -74,5 +74,10 @@
           ]
         }
       ]
+    },
+    {
+      "name": "js",
+      "value": "console.log(new Date())"
     }
+    
   ]

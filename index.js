@@ -50,7 +50,7 @@ async function jsonToJS(data, tab, run) {
                 break
             }
             case "js": {
-                addCode(value)
+                addCode(data.value)
                 break
             }
         }
